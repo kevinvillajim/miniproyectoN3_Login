@@ -529,3 +529,108 @@ header {
 #upload-photo {
 	display: none;
 }
+
+@media (max-width: 940px) {
+	#total-container {
+		width: 100%;
+		margin-top: 0;
+	}
+	#card-container {
+		border: none;
+		padding: 1rem;
+	}
+	#footer {
+		margin-top: 3.2rem;
+	}
+	#avatar-name,
+	#avatar-icon-more {
+		display: none;
+	}
+	#header {
+		margin: 1rem;
+	}
+	#modal-menu.show {
+		position: initial;
+		width: 100%;
+	}
+	#body {
+		margin: 2rem 0;
+	}
+	#body-container {
+		margin: 3rem 0;
+	}
+	#title-info {
+		margin-bottom: 2.5rem;
+	}
+	#profile-card-container,
+	#profile-card-container2 {
+		border: none;
+	}
+	#title-personal-info {
+		font-size: 1.5rem;
+		font-weight: 400;
+	}
+	#subtitle-info {
+		font-size: 0.875rem;
+		font-weight: 300;
+	}
+	#profile-container {
+		margin: 1rem 1rem;
+	}
+	#container-profile {
+		border: 0.1px solid #e0e0e0;
+	}
+	.left-container {
+		margin-left: 0;
+	}
+	.container-profile,
+	#photo-container {
+		display: flex;
+		justify-content: space-between;
+		padding-left: 1.3rem;
+		padding-right: 1.3rem;
+	}
+	#password-profile {
+		word-wrap: break-word;
+		width: 8rem;
+	}
+	#passeord-container {
+		max-width: 100%;
+	}
+	#photo-container {
+		border-top: none;
+	}
+	#profile-about {
+		width: 75%;
+	}
+	#password-container {
+		border-top: 0.1px solid #e0e0e0;
+		border-bottom: 0.2px solid #e0e0e0;
+		border-left: none;
+		border-right: none;
+	}
+	#profile-card-container2 {
+		padding: 1rem;
+	}
+	#frm-edit {
+		margin-top: 2rem;
+	}
+	#photo-t-container {
+		margin: 0;
+		display: flex;
+		justify-content: space-between;
+	}
+	#photo-text-container {
+		margin-right: 0;
+	}
+	.frm-input,
+	#btn-frm {
+		width: 100%;
+	}
+	#back-container {
+		margin-left: 1rem;
+	}
+	#footer {
+		margin: 4rem 1rem 0 1rem;
+	}
+}
